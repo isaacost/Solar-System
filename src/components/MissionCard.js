@@ -8,7 +8,7 @@ class MissionCard extends React.Component {
       <div data-testid="mission-card">
         <p data-testid="mission-name">
           {' '}
-          {name}
+          <strong><u>{name}</u></strong>
           {' '}
         </p>
         <p data-testid="mission-year">

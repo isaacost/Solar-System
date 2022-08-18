@@ -1,0 +1,19 @@
+/* .missoes {
+      display: flex;
+  justify-content: space-between;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px;
+} */
+
+.missoes div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 150px;
+}
+
+.missoes div p {
+  margin-top: 5px;
+}
